@@ -35,6 +35,17 @@ module.exports = {
           },
         ],
       },
+      {
+        test: /\.pdf$/i,
+        use: [
+          {
+            loader: "file-loader",
+            options: {
+              name: "[path][name].[hash].[ext]", // option pour le nom de fichier de sortie
+            },
+          },
+        ],
+      },
       { test: /\.ts$/, use: "ts-loader" },
     ],
   },

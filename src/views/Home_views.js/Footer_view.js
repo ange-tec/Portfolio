@@ -2,13 +2,6 @@ export default () => (`
   <footer class="w-full py-14">
         <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
             <div class="max-w-3xl mx-auto">
-                    <ul class="text-lg flex items-center justify-center flex-col gap-7 md:flex-row md:gap-12 transition-all duration-500 py-16 mb-10 border-b border-gray-200">
-                        <li><a href="#" class="text-gray-800 hover:text-gray-900">Pagedone</a></li>
-                        <li><a href="#" class=" text-gray-800 hover:text-gray-900">Products</a></li>
-                        <li><a href="#" class=" text-gray-800 hover:text-gray-900">Resources</a></li>
-                        <li><a href="#" class=" text-gray-800 hover:text-gray-900">Blogs</a></li>
-                        <li><a href="#" class=" text-gray-800 hover:text-gray-900">Support</a></li>
-                    </ul>
                     <div class="flex space-x-10 justify-center items-center mb-14">
                         <a href="https://x.com/AngeMoudzo2812" class="block  text-gray-900 transition-all duration-500 hover:text-indigo-600 ">
                             <svg class="w-[1.688rem] h-[1.688rem]" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="none">

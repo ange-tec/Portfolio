@@ -6,6 +6,10 @@ import Projects from './controllers/Projects';
 import Contact from './controllers/Contact';
 
 const routes = [{
+  url: '/',
+  controller: Home
+},
+{
   url: '/home',
   controller: Home
 },
